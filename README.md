@@ -36,7 +36,8 @@ BPMN (Business Process Model and Notation) — это язык моделиро�
 • Потоки
 • Артефакты
 
-![95f76887eb42625326b6b69b5eef7025](https://user-images.githubusercontent.com/105587997/193074141-de0ee790-02ef-4f8f-aab1-fe2564af75b3.png)
+![321321313123213123](https://user-images.githubusercontent.com/105587997/201195401-4c47da58-030e-4e83-8b6d-b971266a925a.png)
+
 
 ## 1.4 Use case модель
 Диаграмма вариантов использования
