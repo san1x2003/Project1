@@ -110,6 +110,7 @@ BPMN (Business Process Model and Notation) — это язык моделиро�
 
 ## 3.2 Главная страница
 ![image](https://user-images.githubusercontent.com/105587997/221438973-1d4023d6-b85a-4c37-a48c-140b16b5ae4c.png)
+выф
 
 
 
