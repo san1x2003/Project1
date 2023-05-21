@@ -129,7 +129,9 @@ BPMN (Business Process Model and Notation) — это язык моделиро�
 
 
 
+
 СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ
+
 1)Список Крупнейших Магазинов Электрони и бытовой техники в России на 2023 / smm-tips.ru [сайт]. – URL: https://smm-tips.ru/rating/internet-magaziny-elektroniki.html 
 (дата обращения 25.03.2023).
 
@@ -151,7 +153,7 @@ BPMN (Business Process Model and Notation) — это язык моделиро�
 7)М.Видео-Эльдорадо / tadviser.ru [сайт]. – URL:https://www.tadviser.ru/index.php/%D0%9A%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F:%D0%9C.%D0%92%D0%B8%D0%B4%D0%B5%D0%BE-%D0%AD%D0%BB%D1%8C%D0%B4%D0%BE%D1%80%D0%B0%D0%B4%D0%BE
 (дата обращения 21.05.2023).
 
-8) Переход М.Видео на оборудование Pure Storage / www.cnews.ru [сайт]. – URL:https://www.cnews.ru/news/line/2019-11-18_mvideoeldorado_perehodit
+8)Переход М.Видео на оборудование Pure Storage / www.cnews.ru [сайт]. – URL:https://www.cnews.ru/news/line/2019-11-18_mvideoeldorado_perehodit
 (дата обращения 21.05.2023).
 
 
