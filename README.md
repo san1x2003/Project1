@@ -141,17 +141,82 @@ BPMN (Business Process Model and Notation) — это язык моделиро�
 ## 3.2 Взаимодействие с базой данных и создание классов
 
 Для долговременного хранения информации в системе используется база данных (БД), а для взаимодействия с ней – слой работы с данными(DAL – Data Access Layer).
-Для функционирования слоя DAL были созданы классы, соответствующие таблицам в БД. Названия и типы данных свойств созданных классов соответствуют столбцам соответствующих таблиц. Как пример рассмотрим класс Zakaz и таблицу Tovar (рисунки 5, 6).
+Для функционирования слоя DAL были созданы классы, соответствующие таблицам в БД. Названия и типы данных свойств созданных классов соответствуют столбцам соответствующих таблиц. Как пример рассмотрим класс Zakaz и таблицу Tovar.
 
-Рисунок 5 - Таблица заказ
-Рисунок 6 - Класс Zakaz для работы с таблицей Tovar
+Таблица заказ:
+
+
+Класс Zakaz для работы с таблицей Tovar:
+
+
+{
+    public class Zakaz
+    {
+        public Guid Id { get; set; }
+
+        public Guid? ClientID { get; set; }
+        public Client? Client { get; set; }
+
+        public Guid? SkladId { get; set; }
+        public Sklad? Sklad { get; set; }
+
+        public Guid? EmployeeId { get; set; }
+        public Employee? Employee { get; set; }
+
+        public Guid? TovarId { get; set; }
+        public Tovar? Tovar { get; set; }
+
+        public string NumberContact { get; set; }
+        public DateTime Data { get; set; }
+        public string Adress { get; set; }
+
+
+        public DateTime? OrderDate { get; set; }
+    }
+}
+
 
 Для остальных таблиц были также созданы соответствующие классы, изображенные на рисунке 7.
 
 ## 3.4 Создание frontend части проекта
 
 frontend часть сайта проекта реализована с использованием языка JavaScript и библиотеки React.JS.
-Для реализации меню был создан соответствующий класс Navibar (рисунок 8).
+
+Для реализации меню был создан соответствующий класс Navibar.
+
+export default function Navibar ()  {
+
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
+    return (
+        <>
+            <Navbar className='me-auto mb-2 mb-lg-0' collapse0nSelect expand="md" bg="dark" variant="dark">
+                <Container>
+                    <Navbar.Brand><Link to="/"> Sanshop</Link></Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="mr-auto">
+                            <Nav.Link href="/" > Главная </Nav.Link>
+                            <Nav.Link href="/products" > Товары </Nav.Link>
+                            <Nav.Link href="/сontacts" > Контакты </Nav.Link>
+                        </Nav>
+                        <Nav>
+                        
+                        <Button onClick={handleShow}>
+                            Войти</Button>
+
+                        </Nav>
+
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
+
+        </>
+    )
+}
 
 
 
