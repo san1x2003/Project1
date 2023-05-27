@@ -524,6 +524,10 @@ export const Products = () => {
 
 
 СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ
+https://studbooks.net/2030178/informatika/obschaya_shema_internet_magazina
+https://pandia.ru/text/79/302/53769.php
+https://www.ekam.ru/blogs/pos/osnovnye-biznes-protsessy-internet-magazina
+https://studbooks.net/1883778/informatika/analiz_predmetnoy_oblasti
 
 1) ЧТО ТАКОЕ ИНТЕРНЕТ-МАГАЗИН / vebrost.ru [сайт]. – URL:https://vebrost.ru/blog/chto-takoe-internet-magazin
 (дата обращения 25.03.2023).
